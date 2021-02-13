@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container label{
+    text-decoration: underline;
+}
+
+.container p{
+    line-height: 0.2em;
+}
